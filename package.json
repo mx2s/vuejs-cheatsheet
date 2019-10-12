@@ -1,0 +1,19 @@
+{
+  "name": "vuejs-cheatsheet",
+  "version": "0.1.0",
+  "description": "VueJS cheatsheet with examples and stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxss/vuejs-cheatsheet.git"
+  },
+  "author": "Max Kovalenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mxss/vuejs-cheatsheet/issues"
+  },
+  "homepage": "https://github.com/mxss/vuejs-cheatsheet#readme"
+}
