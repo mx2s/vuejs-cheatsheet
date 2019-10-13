@@ -1,16 +1,21 @@
 <html>
 <head>
+
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
+    <script src="https://unpkg.com/http-vue-loader"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
 </head>
 <body>
 <div id="app">
-    {{ message }}
+    <index-layout>loading ...</index-layout>
 </div>
 <script>
     new Vue({
         el: '#app',
-        data: {
-            message: 'Hello Vue!'
+        components: {
+            'index-layout': window.httpVueLoader('/src/layouts/index/IndexLayout.vue')
         }
     })
 </script>

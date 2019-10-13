@@ -16,5 +16,7 @@
     "url": "https://github.com/mxss/vuejs-cheatsheet/issues"
   },
   "homepage": "https://github.com/mxss/vuejs-cheatsheet#readme",
-  "dependencies": {}
+  "dependencies": {
+    "serve": "^11.2.0"
+  }
 }
